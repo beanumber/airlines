@@ -55,7 +55,7 @@ clean_flights <- function(path_zip) {
       year = ~Year, month = ~Month, day = ~DayofMonth, 
       dep_time = ~dep_time, sched_dep_time = ~sched_dep_time, dep_delay = ~dep_delay, 
       arr_time = ~arr_time, sched_arr_time = ~sched_arr_time, arr_delay = ~arr_delay, 
-      carrier = ~Carrier,  tailnum = ~TailNum, flight = ~FlightNum,
+      carrier = ~Reporting_Airline,  tailnum = ~Tail_Number, flight = ~Flight_Number_Reporting_Airline,
       origin = ~Origin, dest = ~Dest, air_time = ~AirTime, distance = ~Distance,
       cancelled = ~Cancelled, diverted = ~Diverted, 
       hour = ~hour, minute = ~minute, time_hour = ~time_hour
