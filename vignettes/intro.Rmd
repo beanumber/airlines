@@ -156,7 +156,7 @@ head(readLines(init), 10)
 ```
 
 
-### Paritioning
+### Partitioning
 
 For MySQL users, the default schema uses [partitioning](https://dev.mysql.com/doc/refman/5.7/en/partitioning.html) to put each year of flights in its own file on disk. The full table is still available to the user, but if you are often querying individual years, you may see substantial performance improvements on a partitioned table. 
 
